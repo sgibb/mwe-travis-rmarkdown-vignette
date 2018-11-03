@@ -1,0 +1,17 @@
+Package: mwe-travis-rmarkdown-vignette
+Type: Package
+Title: What the Package Does Using Title Case
+Version: 1.0
+Date: 2018-11-03
+Author: Sebastian Gibb
+Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
+Description: More details about what the package does. See
+        <http://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file>
+        for details on how to write this part.
+License: GPL (>= 2)
+Suggests:
+    knitr,
+    rmarkdown,
+    BiocStyle
+VignetteBuilder: knitr
+Encoding: UTF-8

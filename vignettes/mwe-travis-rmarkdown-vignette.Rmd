@@ -1,0 +1,44 @@
+---
+title: "MWE for vignettes with rmarkdown on travis"
+author:
+- name: Sebastian Gibb
+  affiliation: Department of Anesthesiology and Intensive Care, University Medicine Greifswald, Germany.
+package: mwe-travis-rmarkdown-vignette
+abstract: >
+    This is a test vignette for rmarkdown on travis.
+output:
+    BiocStyle::html_document:
+        toc_float: TRUE
+        tidy: TRUE
+vignette: >
+    %\VignetteIndexEntry{MWE for vignettes with rmarkdown on traivs}
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteKeywords{markdown, travis}
+    %\VignetteEncoding{UTF-8}
+    %\VignettePackage{mwe-travis-rmarkdown-vignette}
+---
+
+```{r environment, echo=FALSE, warning=FALSE}
+suppressPackageStartupMessages(library("mwe-travis-rmarkdown-vignette"))
+```
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor
+incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat
+nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa
+qui officia deserunt mollit anim id est laborum.
+
+`r BiocStyle::Biocpkg("Biostrings")`
+
+Loading the `r BiocStyle::Biocpkg("mwe-travis-rmarkdown-vignette")` package:
+```{r}
+library("mwe-travis-rmarkdown-vignette")
+```
+# Session Information
+
+```{r sessioninfo, echo=FALSE}
+sessionInfo()
+```
