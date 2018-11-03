@@ -1,20 +1,20 @@
-\name{mwe-travis-rmarkdown-vignette-package}
-\alias{mwe-travis-rmarkdown-vignette-package}
-\alias{mwe-travis-rmarkdown-vignette}
+\name{mwetravisrmarkdownvignette-package}
+\alias{mwetravisrmarkdownvignette-package}
+\alias{mwetravisrmarkdownvignette}
 \docType{package}
-\title{\packageTitle{mwe-travis-rmarkdown-vignette}}
-\description{\packageDescription{mwe-travis-rmarkdown-vignette}}
+\title{\packageTitle{mwetravisrmarkdownvignette}}
+\description{\packageDescription{mwetravisrmarkdownvignette}}
 \details{
-  The DESCRIPTION file: \packageDESCRIPTION{mwe-travis-rmarkdown-vignette}
-  \packageIndices{mwe-travis-rmarkdown-vignette}
+  The DESCRIPTION file: \packageDESCRIPTION{mwetravisrmarkdownvignette}
+  \packageIndices{mwetravisrmarkdownvignette}
 
   This section should provide a more detailed overview of how to use the
   package, including the most important functions.
 }
 \author{
-  \packageAuthor{mwe-travis-rmarkdown-vignette}
+  \packageAuthor{mwetravisrmarkdownvignette}
   
-  Maintainer: \packageMaintainer{mwe-travis-rmarkdown-vignette}
+  Maintainer: \packageMaintainer{mwetravisrmarkdownvignette}
 }
 \references{
   This optional section can contain literature or other references for

@@ -1,4 +1,4 @@
-Package: mwe-travis-rmarkdown-vignette
+Package: mwetravisrmarkdownvignette
 Type: Package
 Title: What the Package Does Using Title Case
 Version: 1.0

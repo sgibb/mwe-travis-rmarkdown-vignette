@@ -3,7 +3,7 @@ title: "MWE for vignettes with rmarkdown on travis"
 author:
 - name: Sebastian Gibb
   affiliation: Department of Anesthesiology and Intensive Care, University Medicine Greifswald, Germany.
-package: mwe-travis-rmarkdown-vignette
+package: mwetravisrmarkdownvignette
 abstract: >
     This is a test vignette for rmarkdown on travis.
 output:
@@ -15,11 +15,11 @@ vignette: >
     %\VignetteEngine{knitr::rmarkdown}
     %\VignetteKeywords{markdown, travis}
     %\VignetteEncoding{UTF-8}
-    %\VignettePackage{mwe-travis-rmarkdown-vignette}
+    %\VignettePackage{mwetravisrmarkdownvignette}
 ---
 
 ```{r environment, echo=FALSE, warning=FALSE}
-suppressPackageStartupMessages(library("mwe-travis-rmarkdown-vignette"))
+suppressPackageStartupMessages(library("mwetravisrmarkdownvignette"))
 ```
 
 # Introduction
@@ -33,9 +33,9 @@ qui officia deserunt mollit anim id est laborum.
 
 `r BiocStyle::Biocpkg("Biostrings")`
 
-Loading the `r BiocStyle::Biocpkg("mwe-travis-rmarkdown-vignette")` package:
+Loading the `r BiocStyle::Biocpkg("mwetravisrmarkdownvignette")` package:
 ```{r}
-library("mwe-travis-rmarkdown-vignette")
+library("mwetravisrmarkdownvignette")
 ```
 # Session Information
 
