@@ -3,7 +3,9 @@ Type: Package
 Title: What the Package Does Using Title Case
 Version: 1.0
 Date: 2018-11-03
-Author: Sebastian Gibb
+Authors@R: person("Sebastian", "Gibb", role=c("aut", "cre"),
+                  email="mail@sebastiangibb.de",
+                  comment=c(ORCID="0000-0001-7406-4443"))
 Maintainer: Sebastian Gibb <mail@sebastiangibb.de>
 Description: More details about what the package does. See
         <http://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file>
